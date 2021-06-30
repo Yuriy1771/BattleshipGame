@@ -1,0 +1,190 @@
+body {
+    background: black;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+}
+
+#title {
+    width: 290px;
+    position: relative;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 180px;
+    border-bottom: solid 2px white;
+    color: white;
+    font-family: Arial;
+    z-index: 1;
+}
+
+#border {
+    width: 500px;
+    height: 700px;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 100px;
+    border: 2px solid green;
+    background: #01450c;
+    opacity: 0.5;
+}
+
+#avatar {
+    width: 100px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 530px;
+}
+
+#nik {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 480px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#nik:focus {
+    background-color: #86c28d;
+}
+
+#email {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 470px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#email:focus {
+    background-color: #86c28d;
+}
+
+#password {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 460px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#password:focus {
+    background-color: #86c28d;
+}
+
+#sex select {
+    width: 214px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 450px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#sex select:focus {
+    background-color: #86c28d;
+}
+
+#dr_title {
+    color: white;
+    position: relative;
+    text-align: center;
+    bottom: 450px;
+    font-family: Arial;
+}
+
+#date {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 460px;
+}
+
+#number {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 450px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#reg {
+    width: 215px;
+    padding: 10px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 420px;
+    text-align: center;
+    border: 2px solid #195e24;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    background: #27c239;
+    font-size: 20px;
+    font-family: Arial;
+    cursor: pointer;
+}
+
+#reg:hover {
+    background: #2d8a3c;
+    color: #cccfcd;
+    transition: all .3s ease-out;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal_content {
+    background: #ffff;
+    padding: 20px;
+    width: 60%;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.close_modal_window {
+    color: black;
+    float: right;
+    font-size: 30px;
+}

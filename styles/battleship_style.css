@@ -1,0 +1,192 @@
+body {
+    background-color: black;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+}
+
+div#board {
+    position: relative;
+    width: 1024px;
+    height: 863px;
+    margin: auto;
+    background: url("../images/board.jpg") no-repeat;
+    opacity: 0.8;
+}
+
+div#messageArea {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: rgb(83, 175, 19);
+}
+
+table {
+    position: absolute;
+    left: 173px;
+    top: 98px;
+    border-spacing: 0px;
+}
+
+td {
+    width: 94px;
+    height: 94px;
+}
+
+form {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 15px;
+    background-color: rgb(83, 175, 19);
+}
+
+form input {
+    background-color: rgb(152, 207, 113);
+    border-color: rgb(83, 175, 19);
+    font-size: 1em;
+}
+
+.hit {
+    background: url(../images/ship.png) no-repeat center center;
+}
+
+.miss {
+    background: url(../images/miss.png) no-repeat center center;
+}
+
+#exit {
+    position: relative;
+    border: 2px solid green;
+    border-radius: 10%;
+    padding: 10px;
+    text-decoration: none;
+    color: #000000;
+    z-index: 2;
+    background: #27c239;
+    left: 90%;
+}
+
+#exit:hover {
+    background: #2d8a3c;
+    color: #cccfcd;
+    transition: all .3s ease-out;
+}
+
+
+#sidebar {
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    background: rgba(100, 145, 90, .5);
+    border-right: 4px solid green;
+    z-index: 1;
+    left: -254px;
+    -moz-transition: all 300ms ease-out;
+    -webkit-transition: all 300ms ease-out;
+    transition: all 300ms ease-out;
+}
+
+#sidebar.active {
+    left: 0px;
+}
+
+#sidebar ul li:first-child {
+    color: #4e4f;
+    font-size: 30px;
+    list-style: none;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: Impact;
+    text-align: left;
+}
+
+#sidebar ul li:not(:first-child) {
+    width: 150px;
+    margin: 10px;
+    color: green;
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 10px;
+    font-family: Arial;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#sidebar ul li a {
+    color: #dfe5eb;
+    text-decoration: none;
+}
+
+#sidebar ul li a:hover {
+    color: #00ff15;
+    transition: all .5s ease-out;
+}
+
+#sidebar .toggle-btn {
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    background: #e0e5ea;
+    padding: 10px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    background-color: #666;
+    margin: 4px;
+}
+
+#sidebar .toggle-btn:hover {
+    background: #556270;
+}
+
+#sidebar .toggle-btn:hover span {
+    background: #fafafa;
+}
+
+#menu_dr_games {
+    width: 200px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.games {
+    width: 100px;
+    margin: 10px;
+    font-family: Arial;
+    font-size: 20px;
+    text-align: left;
+}
+
+#on_music {
+    width: 30px;
+    position: relative;
+    background: #27c239;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-family: Arial;
+    font-size: 14px;
+    display: block;
+    cursor: pointer;
+    margin-left: 97%;
+    bottom: 890px;
+}
+
+#on_music:hover {
+    background: #2d8a3c;
+    color: #cccfcd;
+    transition: all .3s ease-out;
+}

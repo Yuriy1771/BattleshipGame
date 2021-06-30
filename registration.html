@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Registration:Battleship</title>
+    <link rel="stylesheet" type="text/css" href="styles/registration.css">
+    <link href="images/icon.png" rel="shortcut icon" type="image-icon">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="images/smoke.mp4" type="video/mp4">
+    </video>
+    <h1 id="title">Регистрация</h1>
+    <div id="border"></div>
+    <img src="images/men.png" width="100px" id="avatar">
+    <input type="text" placeholder="Никнейм" id="nik" maxlength="10">
+    <input type="text" placeholder="Почта" id="email" maxlength="30">
+    <input type="password" placeholder="Пароль" id="password" maxlength="10">
+    <div id="sex">
+        <select name="sex">
+            <option value="Мужской">Мужчина</option>
+            <option value="Женский">Женщина</option>
+        </select>
+        <h3 id="dr_title">Дата рождения:</h3>
+    </div>
+    <input type="date" id="date">
+    <input value="+7(___)___-____" id="number">
+    <button id="reg" onclick>Зарегистрироваться</button>
+    <div class="modal" id="mymodal">
+        <div class="modal_content">
+            <span class="close_modal_window">&times;</span>
+            <p color="white">Тестовое модальное окно</p>
+        </div>
+    </div>
+    <script src="scripts/registration.js"></script>
+</body>
+
+</html>

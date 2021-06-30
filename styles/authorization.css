@@ -1,0 +1,168 @@
+body {
+    background: black;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.2;
+
+}
+
+#border {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+    border: 2px solid green;
+    background: #01450c;
+    opacity: 0.5;
+}
+
+#title {
+    width: 290px;
+    position: relative;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    top: 180px;
+    border-bottom: solid 2px white;
+    color: white;
+    font-family: Arial;
+    z-index: 1;
+}
+
+#avatar {
+    width: 100px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 340px;
+}
+
+
+#login {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 330px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#login:focus {
+    background: #86c28d;
+}
+
+.valid {
+    border: 2px solid green;
+}
+
+.invalid:required {
+    border: 2px solid red;
+}
+
+#password {
+    width: 200px;
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 310px;
+    text-align: center;
+    font-size: 19px;
+}
+
+#password:focus {
+    background: #86c28d;
+}
+
+#save {
+    color: white;
+    position: relative;
+    display: block;
+    text-align: center;
+    bottom: 310px;
+    left: 10px;
+}
+
+#save_pas {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    bottom: 292px;
+    right: 65px;
+}
+
+#entrance {
+    width: 150px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 2px solid #195e24;
+    border-radius: 10%;
+    bottom: 300px;
+    background: #27c239;
+    text-decoration: none;
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#entrance:hover {
+    background: #2d8a3c;
+    color: #cccfcd;
+    transition: all .3s ease-out;
+}
+
+#reg {
+    width: 150px;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #195e24;
+    border-radius: 10%;
+    text-align: center;
+    bottom: 290px;
+    text-decoration: none;
+    color: black;
+    background: #54d9ff;
+    font-family: Arial;
+    font-size: 20;
+}
+
+#reg:hover {
+    background: #42aac7;
+    color: #d4d4d4;
+    transition: all .3s ease-out;
+}
+
+#forgot_password {
+    width: 120px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #869de3;
+    text-decoration: none;
+    border-bottom: 1px solid #869de3;
+    bottom: 260px;
+    text-align: center;
+}
